@@ -1,0 +1,15 @@
+file:
+  server:
+    uploadPath: H:\\upload\img
+    uploadUrl: http://localhost/uploadImg
+    downloadUrl: http://localhost:88/img/
+spring:
+  resources:
+    static-locations: classpath:/static,file:\H:\\upload
+server:
+  tomcat:
+    basedir: H:\\tmp
+  port: 88
+log:
+  infoPath: H:\blog\info
+  errorPath: H:\blog\error

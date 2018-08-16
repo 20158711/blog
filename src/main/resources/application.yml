@@ -1,0 +1,21 @@
+spring:
+  mvc:
+    static-path-pattern: /**
+  thymeleaf:
+    cache: false
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: ENC(x0Kg6eezT/lQVGw00jPZoQ==)
+    url: jdbc:mysql://localhost:3306/blogs?characterEncoding=utf-8&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+jasypt:
+  encryptor:
+    password: fajsd^*&^)jkewqoF##%#pifjaf

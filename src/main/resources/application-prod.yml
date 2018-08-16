@@ -1,0 +1,15 @@
+file:
+  server:
+    uploadPath: /home/blog/upload/img
+    uploadUrl: http://111.230.226.20/uploadImg
+    downloadUrl: http://111.230.226.20:88/img/
+spring:
+  resources:
+    static-locations: classpath:/static,file:////home/blog/upload
+server:
+  tomcat:
+    basedir: /tmp
+  port: 88
+log:
+  infoPath: /home/blog/info
+  errorPath: /home/blog/error
